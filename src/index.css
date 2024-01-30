@@ -1,0 +1,37 @@
+
+
+.page{
+  
+  
+height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.photo{
+  width: 900px;
+}
+
+@media (max-width:1000px) {
+
+  .photo{
+    width: 700px;
+  }
+}
+@media (max-width:800px) {
+
+  .photo{
+    width: 500px;
+  }
+}
+@media (max-width:600px) {
+
+  .page{
+    flex-direction: column;
+  }
+  .photo{
+    width: 400px;
+    height: 400px;
+  }
+}
